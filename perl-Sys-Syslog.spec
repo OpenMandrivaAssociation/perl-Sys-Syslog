@@ -1,9 +1,9 @@
 %define upstream_name    Sys-Syslog
-%define upstream_version 0.27
+%define upstream_version 0.28
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:    Provides same functionality as BSD syslog
 License:    GPL+ or Artistic

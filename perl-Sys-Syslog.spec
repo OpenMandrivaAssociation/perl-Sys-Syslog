@@ -1,15 +1,15 @@
 %define upstream_name    Sys-Syslog
-%define upstream_version 0.29
+%define upstream_version 0.33
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	2
+Version:    %perl_convert_version 0.33
+Release:	1
 
 Summary:    Provides same functionality as BSD syslog
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Sys/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    http://www.cpan.org/modules/by-module/Sys/Sys-Syslog-0.33.tar.gz
 
 BuildRequires: perl(Carp)
 BuildRequires: perl(Fcntl)
@@ -85,3 +85,4 @@ rm -rf %buildroot
 
 * Sun Jul 12 2009 cpan2dist 0.27-1mdv
 - initial mdv release, generated with cpan2dist
+

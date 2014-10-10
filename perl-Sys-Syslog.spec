@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version 0.33
-Release:	1
+Release:	2
 
 Summary:    Provides same functionality as BSD syslog
 License:    GPL+ or Artistic
